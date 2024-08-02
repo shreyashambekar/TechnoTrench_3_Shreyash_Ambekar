@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:background="@drawable/task_content"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <CheckBox
+            android:id="@+id/completedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Button_upadate_task"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:background="@drawable/button"
+            android:text="Update"
+
+            android:layout_gravity="end"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+</LinearLayout>
